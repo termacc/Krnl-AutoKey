@@ -1,4 +1,18 @@
 import time
+import importlib
+
+try:
+    importlib.import_module("selenium")
+except ImportError:
+    print("Selenium is not installed. Please install it from https://pypi.org/project/selenium/ or via pip: `pip install selenium`")
+    exit()
+
+try:
+    importlib.import_module("selenium.webdriver.chrome.options")
+except ImportError:
+    print("Selenium Chrome options is not installed. Please install it via pip: `pip install selenium`")
+    exit()
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 

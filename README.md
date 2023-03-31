@@ -3,7 +3,7 @@ Krnl AutoKey automates the process of watching ads on the Krnl website, allowing
 
 
 # Setup 
-If you havent already install [Chrome](https://www.google.com/chrome/). If you currently have or have data on Chrome already your fine, it puts it in a sandbox-like state.
+If you havent already install [Chrome](https://www.google.com/chrome/). Having data on Chrome will not effect anything.
 
 Install [Chrome Web Driver](https://sites.google.com/chromium.org/driver/) then put it the same folder as Main.py
 
